@@ -8,9 +8,6 @@ class Handler:
 		self.server = client.server
 		self.channels = client.channels
 
-	def send(self, message):
-		self.client.send(message)
-
 	def on_invite(self, params): pass
 	def on_join(self, params): pass
 	def on_kick(self, params): pass
